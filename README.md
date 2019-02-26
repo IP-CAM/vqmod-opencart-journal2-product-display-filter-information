@@ -5,3 +5,5 @@
 **Attention**: You have to install `[VQMOD]` for **Opencart** ( https://github.com/vqmod/vqmod/releases ) for this to work!
 
 Upload the contents of the `upload` folder.
+
+Use `.knns-filter`, `.knns-filter-name` & `knns-filter-value` classes for styling.
