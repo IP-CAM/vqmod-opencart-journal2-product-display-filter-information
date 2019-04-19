@@ -5,7 +5,7 @@
 		xsi:schemaLocation="https://github.com/vqmod/vqmod https://raw.githubusercontent.com/vqmod/vqmod/master/vqmod.xsd"
 		>
 			<id><![CDATA[[VQMOD]Journal 2 - Advanced Opencart Theme: Product > Display Filter Information]]></id>
-			<version>0.2</version>
+			<version>0.2.0</version>
 			<vqmver>2.6.3</vqmver>
 			<author>kanenas.net (aka Nikolas Branis) - nbran@kanenas.net</author>
 			<file path="catalog/model/catalog/" name="product.php" error="log">
