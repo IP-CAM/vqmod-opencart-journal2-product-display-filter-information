@@ -1,4 +1,4 @@
-# [VQMOD] Journal 2 - Advanced Opencart Theme: Product > Display Filter Information
+# [VQMOD] Journal 2 - Advanced Opencart Theme: Product > Display Filter Information with sort_order
 
 **Opencart**: v.2.x  
 **Opencart Theme**: Journal - Advanced Opencart Theme (https://themeforest.net/item/journal-advanced-opencart-theme/4260361)  
