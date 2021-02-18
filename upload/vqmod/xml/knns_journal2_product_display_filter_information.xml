@@ -15,7 +15,8 @@
 	// kanenas: knns_journal2_product_display_filter_information.xml (start) <<
 	public function getProductFilters($product_id) {
 		$product_filter_data = array();
-		$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "product_filter WHERE product_id = '" . (int)$product_id . "'");
+		//$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "product_filter WHERE product_id = '" . (int)$product_id . "'");
+		$query = $this->db->query("SELECT pf.product_id, pf.filter_id FROM " . DB_PREFIX . "product_filter pf LEFT JOIN " . DB_PREFIX . "filter f ON (f.filter_id = pf.filter_id) LEFT JOIN " . DB_PREFIX . "filter_group fg ON (fg.filter_group_id = f.filter_group_id) WHERE product_id =  '" . (int)$product_id . "' ORDER BY fg.sort_order ASC");
 		foreach ($query->rows as $result) {
 			$product_filter_data[] = $result['filter_id'];
 		}
